@@ -2,25 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
 
 /*tagnames*/
-
+body {
+    margin: 0px;
+}
 html {
     color: black;
     background-color: white;
     font-family: "Hind Siliguri", sans-serif;
-    overflow-x: hidden;
     text-align: center;
 }
 div {
     width: 98%;
-    padding: 2%;
-    padding-bottom: 0%;
-    padding-top: 5%;
+    padding: 1%;
 }
 div img {
-    height: 50.4px;
+    height: 48px;
 }
 iframe {
-    width: 99%;
+    width: 75%;
 }
 p {
     width: 50%;
@@ -42,13 +41,9 @@ p {
 }
 .header {
     width: 100%;
-    position: absolute;
-    left: 0px;
-    top: 0%;
+    margin: 0px;
     background: #2d376e;
-    padding-left: 0px;
-    padding-top: 0px;
-    width: 100%;
+    padding: 0px;
     text-align: right;
 }
 
@@ -62,22 +57,18 @@ p {
     font-size: 1.5em;
 }
 #banner {
-    background-color: #e5cf00;
-    height: 5.5px;
-    position: absolute;
-    left: 0px;
-    top: 55px;
-    z-index: 0;
+    background-color: yellow;
+    height: 24px;
+    padding: none;
+    transition: ease-in-out 1s;
 }
-#banner h2 {
-    position: absolute;
-    top: 4.5%;
-    left: 50%;
+#banner h4 {
+    margin: 0px;
+    display: inline-block;
 }
 #banner button {
-    position: absolute;
-    top: 10%;
-    left: 90%;
+    float: right;
+    background-color: yellow;
 }
 #footer {
     padding: 2%;
@@ -91,15 +82,15 @@ p {
     margin: 0px;
 }
 #header-logo {
-    height: 50.4px;
+    height: 48px;
     position: absolute;
-    left: 2%;
-    top: 12%;
+    left: .5%;
+    top: .5%;
     padding-right: 5%;
 }
 p {
-    width: 50%;
-    margin-left: 13%;
-    margin-right: 13%;
+    width: 75%;
+    margin-left: 14%;
+    margin-right: 14%;
     text-align: center;
 }
