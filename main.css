@@ -36,7 +36,7 @@ p {
 }
 .header button:hover {
     color: white;
-    background-color: #2d376e;
+    background-color: #3e487f;
     cursor: pointer;
 }
 .header {
@@ -49,7 +49,7 @@ p {
 
 .nav:hover {
     color: white;
-    background-color: #2d376e;
+    background-color: #3e487f;
     cursor: pointer;
 }
 .footer-container {
